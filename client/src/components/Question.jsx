@@ -35,9 +35,7 @@ const Question = ({ onchange }) => {
                 onChange={() => {
                   onSelect(i);
                 }}
-                checked={() => {
-                  return ans[trace] === i ? true : null;
-                }}
+                checked={ans[trace] === i ? true : null}
               />
               <label htmlFor={`q${i}-option`}>{opt}</label>
             </li>

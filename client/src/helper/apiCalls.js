@@ -13,7 +13,6 @@ export async function getAllQuestions() {
 
 export async function insertQuestion({ question, options, answer }) {
   try {
-    console.log(question, options, answer);
     await axios.post("/setquestion", {
       question,
       options,

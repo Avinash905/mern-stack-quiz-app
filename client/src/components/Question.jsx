@@ -16,7 +16,6 @@ const Question = ({ onchange }) => {
   const onSelect = (i) => {
     onchange(i);
   };
-  console.log("ans,trace :>> ", ans, trace);
   useEffect(() => {
     getques();
   }, []);

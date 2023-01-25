@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900;1000&family=Poppins:wght@300;500;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(50, 47, 47);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: center;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border: 5px solid rgb(0, 180, 0);
+  padding: 0.5rem 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+ol > li {
+  font-size: 1.2rem;
+}
+
+.username-input {
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.username-input:focus {
+  outline: none;
+}
+
+.admin-btn-cont {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.admin-btn {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-btn:active {
+  transform: scale(0.96);
+}
+
+.start-quiz-btn {
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.start-quiz-btn:hover {
+  background-color: white;
+}
+
+.next-prev-btn {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-btn {
+  background-color: rgb(3, 221, 3);
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.question > h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+ul > li {
+  list-style: none;
+  font-size: 1.4rem;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.6rem;
+}
+
+ul > li:hover {
+  background-color: rgb(64, 61, 61);
+}
+
+li > label,
+li > input {
+  cursor: pointer;
+}
+
+.result {
+  border: 2px solid grey;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.result p {
+  font-size: 1.3rem;
+}
+
+.result-left,
+.result-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.result-table {
+  width: 50%;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+}
+
+th {
+  background-color: black;
+}
+
+td {
+  background-color: rgb(180, 180, 180);
+  color: black;
+}
+
+.admin-input {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.admin-input:focus {
+  outline: none;
+}
+
+.admin-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-options > input {
+  width: 100%;
+}
